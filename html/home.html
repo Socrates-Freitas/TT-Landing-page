@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <header>
+        <!-- Aqui vai ter Logo, Campo de Busca e Perfil de Usuário -->
+        <img src="../img/Logo TT.svg" alt="" id="logo">
+        <form action="">
+            <input type="text" id="campo_busca" placeholder="Buscar">
+        </form>
+
+        <span class="text_and_circle_header">
+            <p>usuário</p>
+            <span class="circulo_usuario"> </span>
+
+        </div>
+
+    </header>
+
+    <div id="flex_container">
+        <nav>
+
+            <!-- Cana icone tem width de 40px -->
+
+            <!-- Barra da esquerda -->
+            <div class="nav_item">
+                <img src="../img/Home_Vector.svg" alt="">
+                <p>Página inicial</p>
+            </div>
+
+            <div class="nav_item">
+                <img src="../img/Bell_Outlined.svg" alt="">
+                <p>Notificações</p>
+            </div>
+
+            <div class="nav_item">
+                <img src="../img/Comment_Outlined.svg" alt="">
+                <p>Mensagens</p>
+            </div>
+
+            <div class="nav_item">
+                <img src="../img/Settings_Vector.svg" alt="">
+                <p>Configurações</p>
+            </div>
+
+        </nav>
+
+        <main>
+            <!-- Parte do meio lá -->
+
+            <section>
+
+                <article id="post_ttwitt_container">
+                    <!--Aqui vai ter o campo pra colocar novos twitts e tals-->
+                    <form action="#">
+                        <textarea name="" id="post_textarea"cols="30" rows="10" maxlength="200" placeholder="No que está pensando...?">
+
+                        </textarea>
+                    </form>
+                    <div id="buttons">
+                        <div id="vectors_container">
+                            <img id="post_icone1" src="../img/Image_Vector.svg" alt="">
+                            <img id="post_icone2" src="../img/Emogi_Vector.svg" alt="">
+                            <img id="post_icone3" src="../img/Link_Vector.svg" alt="">
+                        </div>
+
+                        <input type="submit" id="postar_botao" value="Postar">
+                    </div>
+                </article>
+
+                <article class="post">
+
+                    <div class="post_container">
+
+                        <div class="profile_and_image">
+                            <span class="circulo_usuario"> </span>
+                            <p>HIDEO_KOGIMA</p>
+                        </div>
+
+                        <div class="image_and_buttons">
+
+                            <img src="../img/kogima.png" alt="" class="profile_picture">
+
+                            <div class="buttons_container">
+
+                                <div class="like_and_comment">
+                                    <img src="../img/Like_Vector.svg" alt="" class="like_button">
+                                    <img src="../img/Comment_Vector.svg" alt="">
+                                </div>
+                              
+                                <img src="../img/Love_Vector.svg" alt="" class="love_button">
+
+
+                            </div>
+                            <p class="twitt">With Norman.</p>
+                        </div>
+                        
+
+                    </div>
+
+                </article>
+
+
+
+
+
+
+                <article class="post">
+
+                    <div class="post_container">
+
+                        <div class="profile_and_image">
+                            <span class="circulo_usuario"> </span>
+                            <p>HIDEO_KOGIMA</p>
+                        </div>
+
+                        <div class="image_and_buttons">
+
+                            <img src="" alt="">
+
+                            <div class="buttons_container">
+
+                                <div class="like_and_comment">
+                                    <img src="" alt="">
+                                    <img src="" alt="">
+                                </div>
+                              
+                                <img src="" alt="">
+
+
+                            </div>
+                            <p class="twitt">With Norman.</p>
+                        </div>
+                        
+
+                    </div>
+
+                </article>
+
+
+
+
+            </section>
+
+            <!-- Aqui em baixo eu coloco os ttwits e coloco os novos com JS-->
+
+        </main>
+
+        <aside>
+            <!-- Barra da direita -->
+            <h3>Pessoas que talvez você conheça</h3>
+
+            
+            <div class="sidebar_item">
+                <span class="text_and_circle_aside">
+
+                    <span class="circulo_usuario">
+                    </span>
+                    <p> @usuário </p>
+                </span>
+                <p><a href="#">adicionar</a></p>
+            </div>
+
+             
+            <div class="sidebar_item">
+                <span class="text_and_circle_aside">
+
+                    <span class="circulo_usuario">
+                    </span>
+                    <p> @usuário </p>
+                </span>
+                <p><a href="#">adicionar</a></p>
+            </div>
+
+             
+            <div class="sidebar_item">
+                <span class="text_and_circle_aside">
+
+                    <span class="circulo_usuario">
+                    </span>
+                    <p> @usuário </p>
+                </span>
+                <p><a href="#">adicionar</a></p>
+            </div>
+
+             
+            <div class="sidebar_item">
+                <span class="text_and_circle_aside">
+
+                    <span class="circulo_usuario">
+                    </span>
+                    <p> @usuário </p>
+                </span>
+                <p><a href="#">adicionar</a></p>
+            </div>
+
+
+        </aside>
+    </div>
+
+</body>
+</html>

@@ -17,6 +17,7 @@ a{
 
 #titulo{
     text-align: center;
+    font-size: larger;
 }
 
 section{
@@ -36,15 +37,18 @@ section{
 .input_div{
     margin-bottom:24px;
     position: relative;
+    margin-top: 20px;
+
 }
 
 .text_input{
-    width: 80%;
+    width: 90%;
     height: 3vh;
     border: solid 1px #222222;
     border-radius: 5px;
 
     padding:8px;
+
 }
 
 label{
@@ -88,7 +92,7 @@ label{
 
 #cadastrar_bt, #login_bt{
     margin-top: 24px;
-    width: 80%;
+    width: 95%;
 
     height: 6vh;
     border: none;
