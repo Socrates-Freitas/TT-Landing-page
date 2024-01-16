@@ -1,0 +1,105 @@
+body{
+    background-color: #222222;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: start;
+    align-content: center;
+
+    padding-left:16px;
+    
+}
+
+a{
+    color: #1985A1;
+}
+
+#titulo{
+    text-align: center;
+}
+
+section{
+
+    width: 70%;
+    height: 40%;
+}
+
+#form_container{
+    width: 40%;
+    background-color: #F2F2F2;
+    color:#222222;
+    padding: 50px;
+    border-radius:20px;
+}
+
+.input_div{
+    margin-bottom:24px;
+    position: relative;
+}
+
+.text_input{
+    width: 80%;
+    height: 3vh;
+    border: solid 1px #222222;
+    border-radius: 5px;
+
+    padding:8px;
+}
+
+label{
+    
+    position:absolute;
+    top: -8px;
+    left: 20px;
+    background-color: #F2F2F2;
+
+    font-size: 0.8em;
+
+}
+
+
+#checkbox_div p{
+    display:inline;
+}
+
+#i_password, #i_password_c {
+    background-image: url("../img/olho.png");
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+
+
+#logo{
+    width: 293px;
+    height: 304px;
+    position: absolute;
+    top:25%;
+}
+
+#cadastrar_bt{
+    background-color: #105F74;
+    color:#F2F2F2;
+}
+
+#login_bt{
+    color:#105F74;
+}
+
+#cadastrar_bt, #login_bt{
+    margin-top: 24px;
+    width: 80%;
+
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    
+} 
+
+#esqueci_senha{
+    text-align: end;
+}
+
+#esqueci_senha{
+    text-align: end;
+}
