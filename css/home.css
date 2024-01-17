@@ -4,7 +4,9 @@ body{
     padding-left: 16px;
     color:white;
 }
-
+/*
+https://www.freecodecamp.org/news/fixed-side-and-bottom-navbar-with-css-flexbox/
+*/
 
 a{
     color: #1985A1;
@@ -94,7 +96,8 @@ header form input{
 
 nav{
     flex: 0.8;
-    position: sticky;
+
+    
 }
 
 main{
