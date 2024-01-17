@@ -189,14 +189,14 @@ section{
     margin-bottom: 8px;
 }
 
-/* 
+
 .post_container{
     display: flex;
     flex-direction: column;
 
     align-content: start;
     
-} */
+}
 
 .post{
     width: 88%;
@@ -274,17 +274,18 @@ section{
 }
 
 .buttons_container{
+
     margin-top: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .like_button{
-    margin-right: 28px;
+    margin-right: 1vw;
 }
 .ttwit_text{
-    margin-left: 24px;
+    margin-left: 6%;
 }
