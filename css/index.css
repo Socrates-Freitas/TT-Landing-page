@@ -1,14 +1,17 @@
 body{
     background-color: #222222;
 
-    display: flex;
-    flex-wrap: nowrap;
-
-    justify-content: start;
-    align-content: center;
-
-    padding-left:16px;
+   
+    padding:3%;
     
+}
+
+#content_wrapper{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;    
 }
 
 a{
@@ -20,18 +23,22 @@ a{
     font-size: larger;
 }
 
-section{
 
-    width: 70%;
-    height: 40%;
+
+
+#logo{
+    width: 293px;
+    height: 304px;
 }
 
 #form_container{
-    width: 40%;
+    display: flex;
+    flex-direction: column;
     background-color: #F2F2F2;
     color:#222222;
     padding: 50px;
     border-radius:20px;
+    width: 70%;
 }
 
 .input_div{
@@ -73,13 +80,6 @@ label{
     background-position: 97%;
 }
 
-
-#logo{
-    width: 293px;
-    height: 304px;
-    position: absolute;
-    top:25%;
-}
 
 #cadastrar_bt{
     background-color: #105F74;
