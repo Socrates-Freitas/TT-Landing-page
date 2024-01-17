@@ -121,15 +121,23 @@ main{
 
 aside{
     flex: 1.2;
+        
+}
 
-    
+
+#sidebar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
 }
 
 .sidebar_item{
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
     align-items: center;
-    justify-content:  space-around;
+    justify-content:  space-between;
     margin-bottom: 16px;
   
 }
@@ -159,6 +167,7 @@ section{
     align-items: center;
 }
 
+
 #post_ttwitt_container{
     width: 88%;
     border: 1px solid #4C5C68;
@@ -179,6 +188,15 @@ section{
     height:11vh;
     margin-bottom: 8px;
 }
+
+/* 
+.post_container{
+    display: flex;
+    flex-direction: column;
+
+    align-content: start;
+    
+} */
 
 .post{
     width: 88%;
