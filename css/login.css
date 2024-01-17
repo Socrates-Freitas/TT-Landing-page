@@ -1,53 +1,49 @@
 body{
     background-color: #222222;
+    padding:5%;
+    
+}
+
+#content_wrapper{
 
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
 
-    justify-content: start;
-    align-content: end;
+    justify-content:space-between;
+    flex-wrap: wrap;
 
+   align-items: center;
 
-    width: 100%;
-    padding-left:16px;
-
-    padding-top: 5%;
 }
+
 
 a{
     color: #1985A1;
 }
 
-#titulo{
-    text-align: center;
-    font-size:larger;
-}
-aside{
-    width: 30%;
-    margin-right: 5%;
-}
+
 #logo{
     width: 293px;
     height: 304px;
-    position: absolute;
-
-    top:25%;
-
+   
 }
 
-section{
-
-    width: 70%;
-    height: 40%;
-}
 
 #form_container{
-    width: 40%;
+
     background-color: #F2F2F2;
     color:#222222;
     padding: 50px;
     border-radius:20px;
-    margin-bottom:5%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+#titulo{
+    text-align: center;
+    font-size:larger;
 }
 
 .input_div{
@@ -89,12 +85,6 @@ label{
 }
 
 
-#logo{
-    width: 293px;
-    height: 304px;
-    position: absolute;
-    top:25%;
-}
 
 #cadastrar_bt{
     background-color: #105F74;
