@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #222222;
     padding:3%;
@@ -14,6 +16,8 @@ body{
 
    align-items: center;
 
+   gap:5%;
+   
 }
 
 
@@ -109,3 +113,44 @@ label{
     text-align: end;
     right: 400px;
 }
+
+
+
+@media screen and (max-width: 800px) {
+
+    body{
+        padding: 6%;
+    }
+
+
+       #content_wrapper{
+           
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+
+    }
+
+    #logo{
+        width: 146.5px;
+        height: 152px;
+    }
+
+   
+    .text_input{
+        width: 95%;
+        height: 1.75vh;
+
+    }
+
+    #cadastrar_bt, #login_bt{
+       
+        height: 5vh;
+      
+        
+    } 
+    
+
+    
+}
+
