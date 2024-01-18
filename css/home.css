@@ -22,12 +22,11 @@ a{
     color: #1985A1;
 }
 
-
 header p{
     display: inline;
 }
 
-#header_wrapper{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
