@@ -137,19 +137,6 @@ label{
     }
 
    
-    .text_input{
-        width: 95%;
-        height: 1.75vh;
-
-    }
-
-    #cadastrar_bt, #login_bt{
-       
-        height: 5vh;
-      
-        
-    } 
-    
 
     
 }

@@ -100,3 +100,20 @@ label{
     
 } 
 
+@media screen and (max-width: 800px) {
+    
+        
+    #content_wrapper{
+
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5vh;
+        
+    }
+
+    
+    #logo{
+        width: 146.5px;
+        height: 152px;
+    }
+}
