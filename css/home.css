@@ -22,6 +22,7 @@ a{
     color: #1985A1;
 }
 
+
 header p{
     display: inline;
 }
@@ -96,6 +97,12 @@ header form input{
   
 }
 
+/*Barra da Esquerda*/ 
+
+nav{
+    flex: 0.8;
+}
+
 .nav_item{
     display: flex;
     align-items: center;
@@ -107,11 +114,13 @@ header form input{
     width: 40px;
 }
 
-nav{
-    flex: 0.8;
-
-    
+#navItem_Busca{
+    display: none;
 }
+
+
+
+/* Conteúdo central do site */
 
 main{
     flex: 2;
@@ -119,38 +128,6 @@ main{
 
 }
 
-aside{
-    flex: 1.2;
-        
-}
-
-
-#sidebar_container{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
-}
-
-.sidebar_item{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:  space-between;
-    margin-bottom: 16px;
-  
-}
-
-.adicionar_button{
-    border: none;
-    background-color: #222222;
-    color: #22A2F2;
-    border-radius: 15px;
-
-    font-size:small;
-
-}
 
 
 .text_and_circle_aside{
@@ -160,7 +137,7 @@ aside{
 
 }
 
-section{
+#main_content_wrapper{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -169,7 +146,7 @@ section{
 
 
 #post_ttwitt_container{
-    width: 88%;
+    width: 84%;
     border: 1px solid #4C5C68;
     padding-bottom:32px;
     padding-left:32px;
@@ -199,7 +176,7 @@ section{
 }
 
 .post{
-    width: 88%;
+    width: 84%;
     border: 1px solid #4C5C68;
     border-bottom-width:0.5px ;
     border-top-width:0.5px ;
@@ -283,9 +260,137 @@ section{
     padding-right: 6%;
 }
 
+.buttons_container img{
+    width: 32px;
+}
+
 .like_button{
     margin-right: 1vw;
 }
 .ttwit_text{
     margin-left: 6%;
+}
+
+
+/*Sidebar direita*/
+
+
+aside{
+    flex: 1.2;
+        
+}
+
+#sidebar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.sidebar_item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  space-between;
+    margin-bottom: 16px;
+  
+}
+
+
+
+.adicionar_button{
+    border: none;
+    background-color: #222222;
+    color: #22A2F2;
+    border-radius: 15px;
+
+    font-size:small;
+
+}
+
+
+@media screen and (max-width:800px) {
+    body{
+        padding-left: 8px;
+
+    }
+
+        
+    #flex_container{
+        gap:7vw;
+
+    }
+
+
+    .circulo_usuario{
+
+        width: 40px;
+        height: 40px;
+       
+    }
+
+    aside{
+        display: none;
+    }    
+    main{
+        flex:3;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        flex:0.1;
+    }
+    #navItem_Busca{
+        display: inline;
+    }
+    .nav_item p{
+        display: none;
+    }
+    
+    .nav_item img{
+        width: 30px;
+    }
+
+        
+    header form input{
+       display: none;
+    }
+
+        
+    #postar_botao{
+      
+        padding:6px 15px 6px 15px;
+
+    }
+
+    #post_ttwitt_container{
+        width: 73%;
+        border: 1px solid #4C5C68;
+        padding-bottom:32px;
+        padding-left:32px;
+        padding-right:32px;
+        padding-top:24px;
+        margin-bottom: 24px;
+    }
+    .post{
+        width: 73%;
+    
+
+        padding: 32px;
+    }
+
+    .profile_picture{
+        width: 40px;
+        height: 40px;
+        border:none;
+        border-radius: 100%;
+    }
+
+        
+    .buttons_container img{
+        width: 24px;
+    }
 }
